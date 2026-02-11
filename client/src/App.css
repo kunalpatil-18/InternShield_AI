@@ -1,0 +1,157 @@
+:root {
+  --primary: #2563eb;       /* Royal Blue */
+  --primary-dark: #1e40af;
+  --bg-color: #f8fafc;      /* Light Gray Blue */
+  --card-bg: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --danger: #ef4444;        /* Red for Fraud */
+  --warning: #f59e0b;       /* Orange for Suspicious */
+  --success: #22c55e;       /* Green for Genuine */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px 20px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: var(--primary-dark);
+}
+
+.header p {
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+/* --- Card Styling --- */
+.card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  
+  /* Add these two lines to force white background */
+  background-color: #ffffff;
+  color: #1e293b; 
+  
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+button:disabled {
+  background-color: var(--text-muted);
+  cursor: not-allowed;
+}
+
+/* --- Result Box --- */
+.result-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f1f5f9;
+  border-left: 6px solid var(--text-muted);
+  animation: fadeIn 0.5s ease-in;
+}
+
+.result-box.Genuine { border-color: var(--success); background-color: #ecfdf5; }
+.result-box.Suspicious { border-color: var(--warning); background-color: #fffbeb; }
+.result-box.Fraudulent { border-color: var(--danger); background-color: #fef2f2; }
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.result-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* Risk Meter Bar */
+.risk-meter-container {
+  height: 10px;
+  background-color: #e2e8f0;
+  border-radius: 5px;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.risk-meter-fill {
+  height: 100%;
+  transition: width 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
