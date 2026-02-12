@@ -43,9 +43,9 @@ Need to run the Backend and Frontend in two separate terminals.
 Terminal 1: Start Backend
 cd server
 python app.py
-# Server will start at http://localhost:5000
+ Server will start at http://localhost:5000
 
 Terminal 2: Start Frontend
 cd client
 npm run dev
-# Client will start at http://localhost:5173
+ Client will start at http://localhost:5173
