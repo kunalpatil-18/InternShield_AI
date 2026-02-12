@@ -1,4 +1,4 @@
-⚙️ Installation Guide for Team Members
+# ⚙️ Installation Guide for Team Members
 
 Follow these steps to set up the project locally on your machine.
 
@@ -15,7 +15,7 @@ cd server
 python -m venv venv
 
 # Activate the virtual environment
-# Windows:
+Windows:
 venv\Scripts\activate
 
 # Install dependencies
@@ -37,7 +37,7 @@ Open MongoDB Compass and connect to "mongodb://localhost:27017".
 The database internshield_db will be created automatically when you run the first scan.
 
 
-🏃‍♂️ How to Run the Project
+# 🏃‍♂️ How to Run the Project
 Need to run the Backend and Frontend in two separate terminals.
 
 Terminal 1: Start Backend
