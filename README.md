@@ -38,6 +38,7 @@ The database internshield_db will be created automatically when you run the firs
 
 
 # 🏃‍♂️ How to Run the Project
+(cd.. to back)
 Need to run the Backend and Frontend in two separate terminals.
 
 Terminal 1: Start Backend
