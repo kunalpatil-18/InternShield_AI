@@ -7,10 +7,10 @@
 
 | Sr.No | Week No | Contents                         | Date                    |
 |------:|:-------:|----------------------------------|-------------------------|
-| 1     | Week 01 | Project Group Formation          | 8/01/2026 –  15/01/2026 |
+| 1     | Week 01 | Project Group Formation          | 08/01/2026 – 15/01/2026 |
 | 2     | Week 02 | Project Topic Finalization       | 19/01/2026 – 29/01/2026 |
 | 3     | Week 03 | Requirement Analysis             | 29/01/2026 – 31/01/2026 |
-| 4     | Week 04 | System Architecture Design       | 7/02/2026 –  18/02/2026 |
+| 4     | Week 04 | System Architecture Design       | 07/02/2026 – 18/02/2026 |
 | 5     | Week 05 | Implementation Phase – I         | 19/02/2026 – 28/02/2026 |
 | 6     | Week 06 | Design & Implementation          | 01/03/2026 – 09/03/2026 |
 | 7     | Week 07 | Implementation Phase – II        | 10/03/2026 – 27/03/2026 |
@@ -22,7 +22,7 @@
 ---
 
 ## 📅 Week 01: Project Group Formation  
-**Date:** 28/07/2025 – 02/08/2025  
+**Date:** 08/01/2026 – 15/01/2026  
 
 - Formed project group and assigned roles:
   - ML model development  
@@ -40,7 +40,7 @@ Finalize project topic.
 ---
 
 ## 📅 Week 02: Project Topic Finalization  
-**Date:** 04/08/2025 – 16/08/2025  
+**Date:** 19/01/2026 – 29/01/2026  
 
 - Explored domains: AI, Cybersecurity, Web Applications.  
 - Identified increasing fake internship scams targeting students.  
@@ -56,7 +56,7 @@ Requirement analysis.
 ---
 
 ## 📅 Week 03: Requirement Analysis & System Study  
-**Date:** 18/08/2025 – 23/08/2025  
+**Date:** 29/01/2026 – 31/01/2026  
 
 - Defined system inputs:
   - Company name  
@@ -82,7 +82,7 @@ System architecture design.
 ---
 
 ## 📅 Week 04: System Architecture Design  
-**Date:** 28/08/2025 – 02/09/2025  
+**Date:** 07/02/2026 – 18/02/2026  
 
 - Designed system modules:
   - React-based Frontend  
@@ -104,7 +104,7 @@ Start implementation.
 ---
 
 ## 📅 Week 05: Implementation Phase – I  
-**Date:** 03/09/2025 – 13/09/2025  
+**Date:** 19/02/2026 – 28/02/2026  
 
 - Finalized tech stack:
   - Frontend: React  
@@ -123,7 +123,7 @@ Feature extraction and model preparation.
 ---
 
 ## 📅 Week 06: Design & Implementation  
-**Date:** 15/09/2025 – 20/09/2025  
+**Date:** 01/03/2026 – 09/03/2026  
 
 - Developed React UI for internship input and result display.  
 - Implemented preprocessing:
@@ -142,7 +142,7 @@ Train ML models.
 ---
 
 ## 📅 Week 07: Implementation Phase – II  
-**Date:** 22/09/2025 – 04/10/2025  
+**Date:** 10/03/2026 – 27/03/2026  
 
 - Trained and compared models:
   - Logistic Regression  
@@ -167,7 +167,7 @@ Model integration.
 ---
 
 ## 📅 Week 08: Implementation Phase – III  
-**Date:** 06/10/2025 – 18/10/2025  
+**Date:** 28/03/2026 – 01/04/2026  
 
 - Saved trained model as `.pkl` file.  
 - Integrated model with Flask backend.  
@@ -180,9 +180,6 @@ Model integration.
 
 - Stored prediction history in MongoDB.  
 
-**Note:**  
-User authentication is not included in the system.  
-
 **Guide Interaction:**  
 Guide suggested improving explanation output and storing data.  
 
@@ -192,7 +189,7 @@ System testing.
 ---
 
 ## 📅 Week 09: System Testing  
-**Date:** 29/10/2025 – 01/11/2025  
+**Date:** 05/04/2026 – 27/04/2026   
 
 - Tested:
   - Frontend input  
@@ -211,7 +208,7 @@ Result analysis.
 ---
 
 ## 📅 Week 10: Results & Analysis  
-**Date:** 03/11/2025 – 08/11/2025  
+**Date:** 28/04/2026 – 09/05/2026  
 
 - XGBoost showed best performance among all models.  
 - System successfully classified internships into categories.  
@@ -229,7 +226,7 @@ Final documentation.
 ---
 
 ## 📅 Week 11: Final Report & Conclusion  
-**Date:** 10/11/2025 – 15/11/2025  
+**Date:** 09/05/2026 – 16/05/2026  
 
 - Completed documentation and project report.  
 - Prepared final presentation and demo.  
@@ -258,9 +255,9 @@ It:
 - Provides risk score  
 - Stores results in MongoDB  
 
-Additionally, the system includes:
-- Scam pattern detection  
-- Analysis of real vs fake internships  
+Additionally, the system includes:  
+- Analysis of real vs fake internships
+- scam resources  
 
 Future scope includes:
 - Detecting fraud using internship offer letter images (image-based verification)  
