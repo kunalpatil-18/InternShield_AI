@@ -17,7 +17,7 @@
 | 8     | Week 08 | Implementation Phase – III       | 28/03/2026 – 01/04/2026 |
 | 9     | Week 09 | System Testing                   | 05/04/2026 – 27/04/2026 |
 | 10    | Week 10 | Results & Analysis               | 28/04/2026 – 09/05/2026 |
-| 11    | Week 11 | Final Report & Conclusion        | 09/05/2026 – 16/05/2026 |
+| 11    | Week 11 | Final Report & Conclusion        | 09/05/2026 – 11/05/2026 |
 
 ---
 
