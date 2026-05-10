@@ -1,9 +1,9 @@
-# 📘 Project Logbook  
+#  Project Logbook  
 ## **Project Title:** An Intelligent Fraud Internship Detection System (InternShield AI)
 
 ---
 
-## 📑 Index
+##  Index
 
 | Sr.No | Week No | Contents                         | Date                    |
 |------:|:-------:|----------------------------------|-------------------------|
@@ -21,7 +21,7 @@
 
 ---
 
-## 📅 Week 01: Project Group Formation  
+##  Week 01: Project Group Formation  
 **Date:** 08/01/2026 – 15/01/2026  
 
 - Formed project group and assigned roles:
@@ -39,13 +39,13 @@ Finalize project topic.
 
 ---
 
-## 📅 Week 02: Project Topic Finalization  
+##  Week 02: Project Topic Finalization  
 **Date:** 19/01/2026 – 29/01/2026  
 
 - Explored domains: AI, Cybersecurity, Web Applications.  
 - Identified increasing fake internship scams targeting students.  
 - Finalized project:  
-👉 *An Intelligent Fraud Internship Detection System (InternShield AI)*  
+   *An Intelligent Fraud Internship Detection System (InternShield AI)*  
 
 **Guide Interaction:**  
 Guide suggested integrating Machine Learning + NLP + Web system.  
@@ -55,7 +55,7 @@ Requirement analysis.
 
 ---
 
-## 📅 Week 03: Requirement Analysis & System Study  
+## Week 03: Requirement Analysis & System Study  
 **Date:** 29/01/2026 – 31/01/2026  
 
 - Defined system inputs:
@@ -81,7 +81,7 @@ System architecture design.
 
 ---
 
-## 📅 Week 04: System Architecture Design  
+## Week 04: System Architecture Design  
 **Date:** 07/02/2026 – 18/02/2026  
 
 - Designed system modules:
@@ -103,7 +103,7 @@ Start implementation.
 
 ---
 
-## 📅 Week 05: Implementation Phase – I  
+##  Week 05: Implementation Phase – I  
 **Date:** 19/02/2026 – 28/02/2026  
 
 - Finalized tech stack:
@@ -122,7 +122,7 @@ Feature extraction and model preparation.
 
 ---
 
-## 📅 Week 06: Design & Implementation  
+##  Week 06: Design & Implementation  
 **Date:** 01/03/2026 – 09/03/2026  
 
 - Developed React UI for internship input and result display.  
@@ -141,7 +141,7 @@ Train ML models.
 
 ---
 
-## 📅 Week 07: Implementation Phase – II  
+##  Week 07: Implementation Phase – II  
 **Date:** 10/03/2026 – 27/03/2026  
 
 - Trained and compared models:
@@ -166,7 +166,7 @@ Model integration.
 
 ---
 
-## 📅 Week 08: Implementation Phase – III  
+##  Week 08: Implementation Phase – III  
 **Date:** 28/03/2026 – 01/04/2026  
 
 - Saved trained model as `.pkl` file.  
@@ -188,7 +188,7 @@ System testing.
 
 ---
 
-## 📅 Week 09: System Testing  
+##  Week 09: System Testing  
 **Date:** 05/04/2026 – 27/04/2026   
 
 - Tested:
@@ -207,7 +207,7 @@ Result analysis.
 
 ---
 
-## 📅 Week 10: Results & Analysis  
+##  Week 10: Results & Analysis  
 **Date:** 28/04/2026 – 09/05/2026  
 
 - XGBoost showed best performance among all models.  
@@ -225,7 +225,7 @@ Final documentation.
 
 ---
 
-## 📅 Week 11: Final Report & Conclusion  
+##  Week 11: Final Report & Conclusion  
 **Date:** 09/05/2026 – 16/05/2026  
 
 - Completed documentation and project report.  
@@ -240,7 +240,7 @@ Project evaluation.
 
 ---
 
-## 📌 Project Description  
+##  Project Description  
 
 InternShield AI is a web-based system that detects fraudulent internship postings using Machine Learning and NLP techniques.  
 
@@ -267,7 +267,7 @@ Future scope includes:
   
 ---
 
-## 👥 Team Members  
+##  Team Members  
 
 - Gunjan Pravin Bhamare  
 - Kunal Sudhakar Patil  
@@ -276,6 +276,6 @@ Future scope includes:
 
 ---
 
-## 👩‍🏫 Guide  
+##  Guide  
 
 - Prof. Sunetra P. Salunkhe  
