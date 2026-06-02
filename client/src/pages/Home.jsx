@@ -26,27 +26,39 @@ function Home() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setResult(null);
-    setError('');
+      e.preventDefault();
+      setLoading(true);
+      setResult(null);
+      setError('');
 
-    try {
-      const response = await axios.post('http://localhost:5000/predict', formData);
-      setResult(response.data);
-    } catch (err) {
-      console.error(err);
-      setError('Failed to connect to the server. Is the Python backend running?');
-    } finally {
-      setLoading(false);
-    }
-  };
+      // --- SMARTER VALIDATION BLOCK ---
+      // Count actual words (separated by spaces) instead of just characters
+      const descriptionWords = formData.description.trim().split(/\s+/).length;
+      const requirementsWords = formData.requirements.trim().split(/\s+/).length;
 
-  const getStatusColor = (prediction) => {
-    if (prediction === 'Genuine') return '#10b981'; // Tailwind emerald-500
-    if (prediction === 'Suspicious') return '#f59e0b'; // Tailwind amber-500
-    return '#ef4444'; // Tailwind red-500
-  };
+      if (descriptionWords < 10 || requirementsWords < 5) {
+        setError("Please paste a realistic description and requirements with actual sentences (minimum 10 words).");
+        setLoading(false);
+        return; // Stops the form from submitting
+      }
+      // ---------------------------------
+
+      try {
+        const response = await axios.post('http://localhost:5000/predict', formData);
+        setResult(response.data);
+      } catch (err) {
+        console.error(err);
+        setError('Failed to connect to the server. Is the Python backend running?');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    const getStatusColor = (prediction) => {
+      if (prediction === 'Genuine') return '#10b981'; // Tailwind emerald-500
+      if (prediction === 'Suspicious') return '#f59e0b'; // Tailwind amber-500
+      return '#ef4444'; // Tailwind red-500
+    };
 
   return (
     <div className="font-sans bg-gray-50 min-h-screen pb-12">
